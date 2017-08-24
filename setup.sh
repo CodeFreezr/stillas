@@ -14,7 +14,7 @@ download_hugo() {
 }
 
 initializer() {
-  download_hugo;
+	download_hugo;
 }
 
 initializer;
