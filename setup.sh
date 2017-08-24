@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 download_hugo() {
 	# see naming convention in repo https://github.com/gohugoio/hugo/releases
 	version="0.26";
