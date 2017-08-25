@@ -21,7 +21,7 @@ theme="basic-theme"
 Run:
 
 ```bash
-.././hudo server -D
+.././hugo server -D
 ```
 
 ---
