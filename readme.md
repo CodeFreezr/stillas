@@ -2,11 +2,29 @@
 
 Scaffold for new projects.
 
-## Install
+---
+
+## Install & run
+
+Setup:
 
 ```bash
-npm run setup
+npm run setup && cd site
 ```
+
+Add theme name to `site/config.toml`:
+
+```toml
+theme="basic-theme"
+```
+
+Run:
+
+```bash
+.././hudo server -D
+```
+
+---
 
 ## License
 

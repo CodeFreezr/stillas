@@ -10,12 +10,12 @@ download_hugo() {
 
 	# install Hugo
 	wget $url;
-	tar xzf *.$format;
-	rm -rf README.md LICENSE.md *.$format;
+	tar xzf *.$format hugo;
+	rm -rf *.$format;
 
 	# create a new site and basic theme
 	./hugo new site site;
-	cd site && .././hugo new theme new-theme;
+	cd site/themes/ && git clone https://github.com/stillas/theme basic-theme;
 }
 
 initializer() {
