@@ -2,7 +2,9 @@
   "name": "stillas",
   "version": "0.0.1",
   "description": "Scaffold for new projects",
-  "scripts": {},
+  "scripts": {
+    "setup": "bash setup.sh"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/marcker/stillas.git"
