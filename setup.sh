@@ -18,7 +18,8 @@ download_hugo() {
 	cd site/themes/ && \
 	git clone https://github.com/stillas/theme basic-theme && \
 	cd basic-theme && \
-	npm install && npm run css;
+	npm install && \
+	npm run css;
 }
 
 initializer() {

@@ -1,6 +1,6 @@
 # Stillas
 
-Scaffold for new projects.
+Scaffold for new projects (macOS or Linux).
 
 ---
 
@@ -16,6 +16,36 @@ Run:
 
 ```bash
 .././hugo server --theme="basic-theme" -D
+```
+
+## Stylus/CSS
+
+Go to `themes/basic-theme` and then.
+
+### Tasks (npm scripts)
+
+Lint:
+
+```bash
+npm run css-lint
+```
+
+Compile to CSS:
+
+```bash
+npm run css-compile
+```
+
+All (lint and compile):
+
+```bash
+npm run css
+```
+
+Watch:
+
+```bash
+npm run css-watch
 ```
 
 ---
