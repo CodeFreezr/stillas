@@ -12,16 +12,10 @@ Setup:
 npm run setup && cd site
 ```
 
-Add theme name to `site/config.toml`:
-
-```toml
-theme="basic-theme"
-```
-
 Run:
 
 ```bash
-.././hugo server -D
+.././hugo server --theme="basic-theme" -D
 ```
 
 ---

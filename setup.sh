@@ -15,7 +15,10 @@ download_hugo() {
 
 	# create a new site and basic theme
 	./hugo new site site;
-	cd site/themes/ && git clone https://github.com/stillas/theme basic-theme;
+	cd site/themes/ && \
+	git clone https://github.com/stillas/theme basic-theme && \
+	cd basic-theme && \
+	npm install && npm run css;
 }
 
 initializer() {
