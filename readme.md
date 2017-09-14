@@ -84,6 +84,25 @@ npm run js-watch
 npm run watch
 ```
 
+## Build to production
+
+Compile all:
+
+```bash
+npm run css && ENV=production npm run js
+```
+
+Build to `site/public` folder:
+
+_Don't forget to change the option `baseURL` into `site/config.toml` to `""` or to your own host URL._
+
+```bash
+.././hugo --theme="basic-theme"
+```
+
+
+Then host it.
+
 ---
 
 ## License
