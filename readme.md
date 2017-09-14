@@ -12,15 +12,15 @@ Setup:
 npm run setup && cd site
 ```
 
-Run:
+Run (with live reload):
 
 ```bash
 .././hugo server --theme="basic-theme" -D
 ```
 
-## Stylus/CSS
+After, go to `themes/basic-theme` and then.
 
-Go to `themes/basic-theme` and then.
+## Stylus/CSS
 
 ### Tasks (npm scripts)
 
@@ -46,6 +46,42 @@ Watch:
 
 ```bash
 npm run css-watch
+```
+
+## JavaScript
+
+Includes: [Babel](https://babeljs.io/), [Vue.js](https://vuejs.org/) and [Browserify](browserify.org).
+
+### Tasks
+
+Lint:
+
+```bash
+npm run js-lint
+```
+
+Compile:
+
+```bash
+ENV=[development or production] npm run js-compile
+```
+
+All (lint and compile):
+
+```bash
+ENV=[development or production] npm run js
+```
+
+Watch (default: `ENV=development`):
+
+```bash
+npm run js-watch
+```
+
+## Watch Stylus and JavaScript
+
+```bash
+npm run watch
 ```
 
 ---
