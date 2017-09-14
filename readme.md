@@ -1,6 +1,10 @@
-# Stillas
+<p align="center">
+	<img src="https://raw.githubusercontent.com/stillas/logo/master/stillas.png" width="200" height="200">
+</p>
 
-Scaffold for new projects (macOS or Linux).
+<h1 align="center">Stillas</h1>
+
+<p align="center">Scaffold for new projects (macOS or Linux).</p>
 
 ---
 
@@ -50,7 +54,7 @@ npm run css-watch
 
 ## JavaScript
 
-Includes: [Babel](https://babeljs.io/), [Vue.js](https://vuejs.org/) and [Browserify](browserify.org).
+Includes: [Babel](https://babeljs.io/), [Vue.js](https://vuejs.org/) and [Browserify](https://browserify.org/).
 
 ### Tasks
 
