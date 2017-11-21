@@ -1,6 +1,6 @@
 #!/bin/bash
 
-download_hugo() {
+configure_stillas() {
 	# see naming convention in repo https://github.com/gohugoio/hugo/releases
 	version="0.26";
 	platform="macOS-64bit";
@@ -18,12 +18,17 @@ download_hugo() {
 	cd site/themes/ && \
 	git clone https://github.com/stillas/theme basic-theme && \
 	cd basic-theme && \
-	npm install && \
-	npm run css;
+	rm -rvf .git && \
+	npm i && \
+	npm run css-compile && ENV=development npm run js-compile && \
+	git init;
+
+	# git clean
+	cd ../../../ && rm -rfv .git*;
 }
 
 initializer() {
-	download_hugo;
+	configure_stillas;
 }
 
 initializer;
