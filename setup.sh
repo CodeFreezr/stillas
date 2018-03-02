@@ -2,7 +2,7 @@
 
 configure_stillas() {
 	# see naming convention in repo https://github.com/gohugoio/hugo/releases
-	version="0.26";
+	version="0.37";
 	platform="macOS-64bit";
 	format="tar.gz";
 
